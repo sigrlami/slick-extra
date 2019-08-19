@@ -13,6 +13,13 @@ dependencies:
 - base >=4.7 && <5
 - slick
 - text
+- shake
+- pandoc
+- aeson
+- lens-aeson
+- lens
+- extra
+- directory
 library:
   source-dirs: src
   exposed-modules:
