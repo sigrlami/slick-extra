@@ -5,4 +5,4 @@ packages:
 
 extra-deps:
 - git: https://github.com/ChrisPenner/slick.git
-  commit: f109ee88b9182e8599f11e14ca91a671217ba82c
+  commit: 1b1be9afb41108234211a0d781c701dde9bbf0c0
