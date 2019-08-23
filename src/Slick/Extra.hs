@@ -3,6 +3,7 @@ module Slick.Extra
     , requireFile
     , fileNames
     , fileNamesByPattern
+    , loadEntity
     , EntityFilePath(..)
 
     -- * TH related

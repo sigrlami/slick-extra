@@ -3,7 +3,8 @@
 {-# LANGUAGE OverloadedStrings #-}
 
 module Slick.Extra.Builder
-  ( requireEntity
+  ( loadEntity
+  , requireEntity
   , requireFile
   , fileNames
   , fileNamesByPattern
