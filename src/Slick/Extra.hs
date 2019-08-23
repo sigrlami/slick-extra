@@ -1,6 +1,12 @@
 module Slick.Extra
-    ( someFunc
+    ( requireEntity
+    , requireFile
+    , EntityFilePath(..)
+
+    , dropPrefix
+
     ) where
 
-someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+import           Slick.Extra.Builder
+import           Slick.Extra.TH
+import           Slick.Extra.Types
