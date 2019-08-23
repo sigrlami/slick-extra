@@ -91,7 +91,7 @@ fileNames :: String            -- ^ top dir where content lives, like "site/"
           -> String            -- ^ pattern for file "//*.md"
           -> Action [FilePath]
 fileNames tdir dir patrn  =
-  getDirectoryFiles "." [tdir ++ dir ++ patrn]
+  getDirectoryFiles "." [ tdir ++ "/" ++ dir ++ patrn ]
 
 -- | Get names of the files from provided directory pattern, full path
 fileNamesByPattern :: String -> Action [FilePath]
