@@ -5,6 +5,8 @@
 module Slick.Extra.Builder
   ( requireEntity
   , requireFile
+  , fileNames
+  , fileNamesByPattern
   , EntityFilePath(..)
   ) where
 
